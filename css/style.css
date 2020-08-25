@@ -30,7 +30,7 @@ background-color: #24252a;
 .nav{
 }
 .nav-list{
-  
+  position : relative;
   list-style: none;
 }
 
