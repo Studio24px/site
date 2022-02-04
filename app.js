@@ -1,5 +1,6 @@
 const port =3000
 const express=require("express")    
+const serverless=require("serverless-http")    
 const app=express()
 // set static paths
 app.use(express.static("public"))
@@ -17,4 +18,5 @@ const index =require("./routes/index")
 app.use('/',index)
 
 // listener to port
-app.listen(port)
+// app.listen(port) //this is used for server
+module.exports.handler=serverless(app)
