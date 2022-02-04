@@ -4,8 +4,9 @@ const app=express()
 // set static paths
 app.use(express.static("public"))
 app.use("/css",express.static(__dirname + "public/css"))
-app.use("/img",express.static(__dirname + "public/img"))
+app.use("/img",express.static(__dirname + "public/images"))
 app.use("/js",express.static(__dirname + "public/js"))
+app.use("/font",express.static(__dirname + "public/fonts"))
 
 // templating engine
 app.set("views","./views")
