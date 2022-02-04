@@ -17,4 +17,4 @@ const index =require("./routes/index")
 app.use('/',index)
 
 // listener to port
-app.listen(port) 
+app.listen(port)) 
