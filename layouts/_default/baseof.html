@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ lang .}}">
+    <head>
+        {{ partial "head" . }}
+    </head>
+<body>
+    <header>
+        {{partial "nav" . }}
+    </header>
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>     
+    <footer>
+        {{ partial "footer" . }}
+    </footer>
+</body>
