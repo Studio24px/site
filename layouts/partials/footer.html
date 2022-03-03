@@ -8,5 +8,5 @@
         </a>
         {{ end }}
         <div class="footer-content">
-            <p>copyright &copy;2021-<script>document.write(new Date().getFullYear())</script></p>
+            <p>{{ replace .Site.Copyright "{year}" now.Year }}</p> 
 </footer>

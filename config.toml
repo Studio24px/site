@@ -1,6 +1,7 @@
 baseURL = "https://24px.co"
 languageCode = "en-us"
 title = "24PX"
+copyright = "Copyright 2021-{year} ."
 
 [[params.social]]
 link = "https://instagram.com/sudigraphics"
@@ -12,3 +13,8 @@ link = "https://twitter.com/sudigraphics"
 icon = "twitter"
 description = "24PX twitter page"
 
+[menu]  
+    [[menu.main]]
+        identifier = 'about'
+        name = 'About'
+        url = '/about/'
