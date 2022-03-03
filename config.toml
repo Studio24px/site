@@ -1,3 +1,14 @@
 baseURL = "https://24px.co"
 languageCode = "en-us"
 title = "24PX"
+
+[[params.social]]
+link = "https://instagram.com/sudigraphics"
+icon = "instagram"
+description = "24PX instagram page"
+
+[[params.social]]
+link = "https://twitter.com/sudigraphics"
+icon = "twitter"
+description = "24PX twitter page"
+
