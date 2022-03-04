@@ -1,8 +1,9 @@
+
+relativeURLs = true
 baseURL = "https://24px.co"
 languageCode = "en-us"
 title = "24PX"
 copyright = "Copyright 2021-{year} ."
-
 [[params.social]]
 link = "https://instagram.com/sudigraphics"
 icon = "instagram"
@@ -18,3 +19,9 @@ description = "24PX twitter page"
         identifier = 'about'
         name = 'About'
         url = '/about/'
+[markup]
+defaultMarkdownHandler = "goldmark"
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
