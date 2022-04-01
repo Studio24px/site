@@ -5,13 +5,19 @@ draft: false
 ---
 <form name="contact" method="POST" action="./thank_you/" data-netlify="true">
   <p>
-    <label>Your Name: <input type="text" name="name" /></label>
+    <input type="text" name="name" placeholder="Name"/>
   </p>
   <p>
-    <label>Your Email: <input type="email" name="email" /></label>
+    <input type="email" name="email" placeholder="Email" />
   </p>
   <p>
-    <label>Message: <textarea name="message"></textarea></label>
+   <textarea name="message" placeholder="Message" ></textarea>
+  </p>
+  <p>
+     <input type="file" name="myfile" placeholder="Upload File" />
+  </p>
+  <p>
+     <div data-netlify-recaptcha="true"></div>
   </p>
   <p>
     <button type="submit">Send</button>
