@@ -2,6 +2,7 @@
 title: "thank_you"
 date: 2022-03-03T07:37:48-05:00
 draft: false
+url: "/thank_you/"
 ---
 
 Thank you!
