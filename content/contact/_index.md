@@ -3,7 +3,7 @@ title: "Contact"
 date: 2022-03-03T07:37:48-05:00
 draft: false
 ---
-<form name="contact" method="POST" action="/contact/thank_you/" data-netlify="true">
+<form name="contact" method="POST" action="/thank_you/" data-netlify="true">
   <p>
     <input type="text" name="name" placeholder="Name"/>
   </p>
