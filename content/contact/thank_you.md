@@ -6,4 +6,4 @@ draft: false
 
 Thank you!
 Your form submission has been received.
-<a  href="{{.Site.BaseURL}}"><button >Back to our site</button></a>
+<a href="/contact/"><button >Back to our site</button></a>
